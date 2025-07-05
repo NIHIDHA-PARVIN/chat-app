@@ -2,16 +2,17 @@
 <html>
 <head>
   <title>Chat Room</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="chat-container">
     <div class="sidebar">
-        <h3>Online Users</h3>
-        <ul id="user-list"></ul>
-        <button onclick="logout()" class="logout-btn">Logout</button>
+      <h3>Online Users</h3>
+      <ul id="user-list"></ul>
+      <button onclick="logout()" class="logout-btn">Logout</button>
     </div>
     <div class="chat-box">
+      <h3 id="chat-header">Select a user</h3>
       <ul id="messages"></ul>
       <div id="typing-area"></div>
       <form id="form">

@@ -10,8 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "expree": "^2.1.0",
     "express": "^5.1.0",
+    "soc": "^0.2.0",
     "socket.io": "^4.8.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NIHIDHA-PARVIN/whatsapp-chat-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NIHIDHA-PARVIN/whatsapp-chat-app/issues"
+  },
+  "homepage": "https://github.com/NIHIDHA-PARVIN/whatsapp-chat-app#readme",
   "description": ""
 }
